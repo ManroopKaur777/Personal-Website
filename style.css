@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+img {
+    border-radius: 60%;
+    height: 200px;
+    width: 180px;   
+}
+hr {
+    border: dotted #387478 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a {
+    color: #E2F1E7;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.top-container {
+    background-image:url(backgrdprsnl.png);
+    position: relative;
+    padding: 100px;
+}
+.title{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E2F1E7;
+    text-align: center;
+    margin: 10px;
+}
+.subtitle {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: #E2F1E7;
+    text-align:center;
+    padding: 30px;
+}
+.quote {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #E2F1E7;
+    text-align:center;
+    padding-top:40px ;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.profile-intro{
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    color: #387478;
+    padding:10px;
+    margin-left:30%;
+    margin-right:30%;
+}  
+.skills{
+    color: #387478;
+    text-align: center; 
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.btn {
+    background: #387478;
+    background-image: -webkit-linear-gradient(top, #387478, #243642);
+    background-image: -moz-linear-gradient(top, #387478, #243642);
+    background-image: -ms-linear-gradient(top, #387478, #243642);
+    background-image: -o-linear-gradient(top, #387478, #243642);
+    background-image: linear-gradient(to bottom, #387478, #243642);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #387478;
+    padding: 50px 0 20px;
+}
+.copyright {
+    color: #E2F1E7;
+    font-size: 15px;
+    padding: 20px 0;
+}
